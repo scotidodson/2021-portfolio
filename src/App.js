@@ -15,11 +15,9 @@ import Footer from './containers/Footer';
 function App() {
   return (
     <Router>
+      <div className='navBar'>
+      </div>
       <nav className='navigation'>
-        <div>
-            <span className='scoti'><Link to='/'>SCOTI</Link></span>
-            <span className='dodson'><Link to='/'>DODSON</Link></span>
-        </div>
         <ul>
             {/* <li>
               <Link to='/'>HOME</Link>
@@ -38,6 +36,10 @@ function App() {
             </li>
         </ul>
       </nav>
+      <div className='sd'>
+            <span className='dodson'><Link to='/'>D</Link></span>
+            <span className='scoti'><Link to='/'>S</Link></span>
+        </div>
       <Switch>
         <Route path='/about'><About/></Route>
         <Route path='/resume'><Resume/></Route>
