@@ -2,3 +2,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+body {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    color: #38373c;
+}
+
+.navigation {
+    z-index: 10;
+}
+
+.navigation li a, .navigation span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation li a:hover {
+    border-bottom: 2px solid #38373c;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 20px 30px 10px;
+    margin: 0;
+}
+
+.navigation li {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.4rem;
+    color: #b2c3c8;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+}
+
+.navigation div {
+    position: absolute;
+    right: 0;
+    top: 0;    
+}
+
+.navigation span.scoti {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    color: #3b5366;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 12px;
+    right: 4.5rem;
+}
+
+.navigation span.dodson {
+    display: block;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    color: #b2c3c8;
+    padding: 0;
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+   
+   
+   /* CSS HEX */
+   /* --silver-sand: #b2c3c8;
+   --deep-space-sparkle: #50696c;
+   --charcoal: #3b5366;
+   --camel: #c89247;
+   --jet: #38373c; */

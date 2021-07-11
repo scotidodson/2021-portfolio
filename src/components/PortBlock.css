@@ -1,0 +1,15 @@
+.portBlock {
+    display: block;
+    width: 100%;
+}
+
+.portBlock .image, .portBlock .text {
+    display: block;
+    border-bottom: 5px solid #38373c;
+    min-height: 300px;
+    padding: 10%;
+}
+
+.portBlock .image {
+    background-color: #50696c;
+}

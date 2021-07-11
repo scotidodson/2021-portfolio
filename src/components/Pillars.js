@@ -1,9 +1,14 @@
 import React from "react";
-// import './Pillars.css';
+import './Pillars.css';
+import Column from './Column';
 
 const Pillars = () => {
   return (
-   <div>pillars</div>
+   <div className='pillars'>
+       <Column/>
+       <Column/>
+       <Column/>
+   </div>
   );
 };
 

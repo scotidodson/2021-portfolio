@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import './containers/Navigation.css';
 import Home from './containers/Home';
 import About from './containers/About';
 import Resume from './containers/Resume';
@@ -18,21 +17,21 @@ function App() {
     <Router>
       <nav className='navigation'>
         <div>
-            <h1 className='scoti'>SCOTI</h1>
-            <span className='dodson'>DODSON</span>
+            <span className='scoti'><Link to='/'>SCOTI</Link></span>
+            <span className='dodson'><Link to='/'>DODSON</Link></span>
         </div>
         <ul>
-            <li>
+            {/* <li>
               <Link to='/'>HOME</Link>
-            </li>
+            </li> */}
             <li>
-              <Link to='/about'>ABOUT</Link>  
+              <Link to='/portfolio'>WORK</Link>
             </li>
             <li>
               <Link to='/resume'>RESUME</Link> 
             </li>
             <li>
-              <Link to='/portfolio'>WORK</Link>
+              <Link to='/about'>ABOUT</Link>  
             </li>
             <li>
               <Link to='/contact'>CONTACT</Link>

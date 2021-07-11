@@ -1,0 +1,11 @@
+.pillars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px solid #38373c;
+    border-bottom: 2px solid #38373c;
+    min-height: 300px;
+}
+
+
