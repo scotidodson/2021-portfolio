@@ -1,0 +1,67 @@
+.navigation {
+ z-index: 10;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 20px 20px 10px;
+    margin: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.4rem;
+    color: #b2c3c8ff;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+}
+
+.navigation div {
+    position: absolute;
+    right: 0;
+    top: 0;    
+}
+
+.navigation h1.scoti {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    color: #3b5366ff;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 12px;
+    right: 5.5rem;
+}
+
+.navigation .dodson {
+    display: block;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    color: #b2c3c8ff;
+    padding: 0;
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* CSS HEX */
+/* --silver-sand: #b2c3c8ff;
+--deep-space-sparkle: #50696cff;
+--charcoal: #3b5366ff;
+--camel: #c89247ff;
+--jet: #38373cff; */

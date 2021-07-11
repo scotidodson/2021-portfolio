@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    padding: 0 5%;   
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.about .scoti {
+    background: url('../assets/scoti.JPG') bottom center no-repeat;
+    background-size: 70%;
+    height: 300px;
+    width: 300px;
+}
+
+.about h2 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2rem;
+    color: #3b5366ff;
+}
+
+.about p {
+    font-family: 'Lora', sans-serif;
+    font-size: 1rem;
+    color: #3b5366ff;
+}
+
