@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom';
 import Home from './containers/Home';
-import About from './containers/About';
+import Hero from './components/Hero';
 import Resume from './containers/Resume';
 import Portfolio from './containers/Portfolio';
 import Contact from './containers/Contact';
@@ -30,14 +30,15 @@ function App() {
             <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
       </nav>
-
-      <Switch>
-        <Route path='/about'><About/></Route>
-        <Route path='/resume'><Resume/></Route>
-        <Route path='/portfolio'><Portfolio/></Route>
-        <Route path='/contact'><Contact/></Route>
-        <Route path='/'><Home/></Route>
-      </Switch>
+      <div className='pageContainer'>
+        <Switch>
+          <Route path='/about'><Hero/></Route>
+          <Route path='/resume'><Resume/></Route>
+          <Route path='/portfolio'><Portfolio/></Route>
+          <Route path='/contact'><Contact/></Route>
+          <Route path='/'><Home/></Route>
+        </Switch>
+      </div>
       <Footer/>
     </Router>
   );
