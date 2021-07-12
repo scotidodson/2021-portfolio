@@ -7,11 +7,36 @@
 }
 
 .resume h2,h3,h4 {
-    font-size: 1rem;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    padding: 0 0 0 40px;
     position: relative;
+}
+
+.resume h2 {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.resume h3 {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.resume h4 {
+    font-family: 'Roboto Mono';
+    color: #BC8538;
+    font-weight: 600;
+    font-size: .8rem;
+    margin: 0 0 4px 0;
+}
+
+.resume ul {
+    list-style: none;
+}
+
+.resume li {
+    font-size: .9rem;
+    margin: 12px 0;
+    line-height: .9rem;
 }
 
 .resume__segment {
@@ -19,13 +44,13 @@
     padding: 10px 0 10px 40px;
 }
 
-.resume__segment h4:before {
+.resume__segment h2:before {
     content: "";
-    width: 30px;
+    width: 60px;
     height: 5px;
     display: inline-block;
     background: #B0C8DB;
     position: absolute;
-    top: 4px;
+    top: 2px;
     left: -40px;
 }

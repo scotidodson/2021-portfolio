@@ -28,20 +28,27 @@ const Resume = () => {
       </ul>
      </div>
      <div className='resume__segment'>
-      <h4>AUGUST 2015 - AUGUST 2018</h4>
-      <h2>BAKER MCKENZIE LLP</h2>
-      <h3>Admin. Assistant + Project Coordinator (NY, 2017-2018)</h3>
-      <h3>Legal Admin. Specialist (DC, 2015-2017)</h3>
+      <h4>SEPTEMBER 2018 - JANUARY 2019</h4>
+      <h2>FLATIRON WEB DEVELOPMENT IMMERSIVE</h2>
+      <h3>Student</h3>
       <ul>
-        <li>Worked cross functionally between Operations, HR, and Finance to support overall business operations of the office, manage projects, and coordinate global meetings</li>
+        <li>describe flatiron here</li>
       </ul>
      </div>
      <div className='resume__segment'>
-      <h4>JULY 2013 - JULY 2015</h4>
-      <h2>ASSOC. OF LEGAL ADMINS CAPITAL CHAPTER</h2>
-      <h3>Meeting Planner + Membership Coordinator</h3>
+      <h4>JULY 2013 - AUGUST 2018</h4>
+      <h2>THE PRE-TECH ERA OF MY CAREER</h2>
+      <h3>Various Roles</h3>
       <ul>
-        <li>Managed programming for 400+ chapter members and 60+ business partners; Coordinated 35+ events annually; Led the membership recruitment and retention program</li>
+        <li>Before I pivoted into tech, I held multiple roles in the legal industry. I was primarily focused on project coordination, operational efficiency improvements, and event production.</li>
+      </ul>
+     </div>
+     <div className='resume__segment'>
+      <h4>SEPTEMBER 2009 - MAY 2013</h4>
+      <h2>UNIVERSITY OF MARYLAND</h2>
+      <h3>B.A., History</h3>
+      <ul>
+        <li>something about college here</li>
       </ul>
      </div>
 
