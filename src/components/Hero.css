@@ -14,13 +14,6 @@
     padding: 0 0;
 }
 
-/* .hero .right {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-} */
-
-
 .hero h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
@@ -30,9 +23,6 @@
 }
 
 .hero p {
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 1rem;
-    color: #3b5366;
     margin: 0 0 10px 0;
     padding: 0 20%;
 }

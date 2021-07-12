@@ -7,6 +7,43 @@ body {
     color: #38373c;
 }
 
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3b5366;
+}
+
+p { 
+    color: #38373c;
+}
+
+h2 {
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+h4 {
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Roboto Mono', serif;
+    font-size: 1rem;
+}
+
+
+
 .navigation {
     position: fixed;
     top: 0;
