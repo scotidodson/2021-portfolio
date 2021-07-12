@@ -5,11 +5,9 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Home from './containers/Home';
-import Hero from './components/Hero';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import { HashLink } from 'react-router-hash-link'
+import PageContainer from './containers/PageContainer';
+
 function App() {
   return (
     <Router>
@@ -22,21 +20,15 @@ function App() {
             {/* <li>
               <Link to='/'>HOME</Link>
             </li> */}
-            <li><Link to='/about'>ABOUT</Link></li>
-            <li><Link to='/portfolio'>WORK</Link></li>
-            <li><Link to='/resume'>RESUME</Link></li>
-            <li><Link to='/contact'>CONTACT</Link></li>
+            <li><HashLink smooth to='#'>ABOUT</HashLink></li>
+            <li><HashLink smooth to='#portfolio'>WORK</HashLink></li>
+            <li><HashLink smooth to='#resume'>RESUME</HashLink></li>
+            <li><HashLink smooth to='#contact'>CONTACT</HashLink></li>
         </ul>
       </nav>
-      <div className='pageContainer'>
         <Switch>
-          <Route path='/about'><Hero/></Route>
-          <Route path='/resume'><Resume/></Route>
-          <Route path='/portfolio'><Portfolio/></Route>
-          <Route path='/contact'><Contact/></Route>
-          <Route path='/'><Home/></Route>
+          <Route path='/'><PageContainer/></Route>
         </Switch>
-      </div>
     </Router>
   );
 }

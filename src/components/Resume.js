@@ -7,7 +7,7 @@ const Resume = () => {
      <div className='resume__segment'>
       <h4>MAY 2019 - PRESENT</h4>
       <h2>
-        <a href="https://www.taboola.com/" target="_blank">TABOOLA</a></h2>
+        <a href="https://www.taboola.com/" target="_blank" rel="noreferrer">TABOOLA</a></h2>
       <h3>Solutions Engineer</h3>
       <ul>
         <li>Scope, develop, QA, and launch custom Javascript & CSS integrations for premium publisher clients such as NBC</li>
@@ -21,7 +21,7 @@ const Resume = () => {
      </div>
      <div className='resume__segment'>
       <h4>MARCH 2019 - MAY 2019</h4>
-      <h2><a href="https://www.mna.co/" target="_blank">MINDS + ASSEMBLY</a></h2>
+      <h2><a href="https://www.mna.co/" target="_blank" rel="noreferrer">MINDS + ASSEMBLY</a></h2>
       <h3>Developer Intern</h3>
       <ul>
         <li>Coded pixel perfect products with CSS, HTML, Javascript</li>
@@ -30,7 +30,7 @@ const Resume = () => {
      </div>
      <div className='resume__segment'>
       <h4>SEPTEMBER 2018 - JANUARY 2019</h4>
-      <h2><a href="https://www.flatironschool.com/" target="_blank">FLATIRON SCHOOL</a></h2>
+      <h2><a href="https://www.flatironschool.com/" target="_blank" rel="noreferrer">FLATIRON SCHOOL</a></h2>
       <h3>Student, Web Development Immersive</h3>
       <ul>
         <li>describe flatiron here</li>

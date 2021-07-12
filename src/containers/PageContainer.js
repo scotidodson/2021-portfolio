@@ -6,16 +6,19 @@ import Portfolio from '../components/Portfolio'
 import Resume from '../components/Resume';
 import Contact from '../components/Contact';
 
-const Home = () => {
+const PageContainer = () => {
   return (
-   <div>
+   <div className="pageContainer">
      <Hero/>
      <Pillars/>
+     <a href="/#portfolio" id="portfolio">portfolio</a>
      <Portfolio/>
+     <a href="/#resume" id="resume">resume</a>
      <Resume/>
+     <a href="/#contact" id="contact">contact</a>
      <Contact/>
    </div>
   );
 };
 
-export default Home;
+export default PageContainer;
