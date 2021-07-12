@@ -1,5 +1,4 @@
 import React from "react";
-import './PortBlock.css';
 
 export default class PortBlock extends React.Component {
     // check orientation
@@ -14,8 +13,8 @@ export default class PortBlock extends React.Component {
 
     render() {
       return(
-          <div className='portBlock'>
-              {this.props.orientation === 'left' ? this.renderTextLeft():this.renderTextRight()}
+          <div className='portfolio__block'>
+              {this.props.textOnLeft ? this.renderTextLeft():this.renderTextRight()}
               
           </div>
       );

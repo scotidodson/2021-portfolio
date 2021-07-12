@@ -5,10 +5,10 @@ import PortBlock from './PortBlock';
 const Portfolio = () => {
   return (
    <div className='portfolio'>
-     <PortBlock orientation='left' image='./assets/sample-a/img.jpg' blurb='sample a'/>
-     <PortBlock orientation='right' image='./assets/sample-b/img.jpg' blurb='sample b'/>
-     <PortBlock orientation='left' image='./assets/sample-a/img.jpg' blurb='sample a'/>
-     <PortBlock orientation='right' image='./assets/sample-b/img.jpg' blurb='sample b'/>
+     <PortBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
+     <PortBlock textOnLeft={false} image='./assets/sample-b/img.jpg' blurb='sample b'/>
+     <PortBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
+     <PortBlock textOnLeft={false} image='./assets/sample-b/img.jpg' blurb='sample b'/>
 
    </div>
   );
