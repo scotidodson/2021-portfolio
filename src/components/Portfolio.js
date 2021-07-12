@@ -1,6 +1,6 @@
 import React from "react";
 import './Portfolio.css';
-import PortBlock from '../components/PortBlock';
+import PortBlock from './PortBlock';
 
 const Portfolio = () => {
   return (

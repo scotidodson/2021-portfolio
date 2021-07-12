@@ -1,10 +1,10 @@
 import React from "react";
 // import './Home.css';
 import Hero from '../components/Hero';
-import Pillars from '../components/Pillars';
-import Portfolio from './Portfolio'
-import Resume from './Resume';
-import Contact from './Contact';
+import Pillars from './Pillars';
+import Portfolio from '../components/Portfolio'
+import Resume from '../components/Resume';
+import Contact from '../components/Contact';
 
 const Home = () => {
   return (

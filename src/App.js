@@ -7,11 +7,9 @@ import {
 } from 'react-router-dom';
 import Home from './containers/Home';
 import Hero from './components/Hero';
-import Resume from './containers/Resume';
-import Portfolio from './containers/Portfolio';
-import Contact from './containers/Contact';
-import Footer from './containers/Footer';
-
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 function App() {
   return (
     <Router>
@@ -39,7 +37,6 @@ function App() {
           <Route path='/'><Home/></Route>
         </Switch>
       </div>
-      <Footer/>
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import './Pillars.css';
-import Column from './Column';
+import Column from '../components/Column';
 
 const Pillars = () => {
   return (
