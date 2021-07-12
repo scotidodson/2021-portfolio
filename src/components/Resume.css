@@ -6,15 +6,6 @@
     position: relative;
 }
 
-.resume a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.resume a {
-    cursor: pointer;
-}
-
 .resume h2,h3,h4 {
     padding: 0 0 0 40px;
     position: relative;

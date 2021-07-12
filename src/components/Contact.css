@@ -1,10 +1,10 @@
 .contact {
-    margin: 50px auto;
+    margin: 50px auto 80px;
     display: flex;
     flex-direction: row;
     max-width: 500px;
 }
 
-.contact h3 {
+.contact__path {
     margin: 0 auto;
 }

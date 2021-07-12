@@ -47,7 +47,7 @@ const Resume = () => {
      <div className='resume__segment'>
       <h4>SEPTEMBER 2009 - MAY 2013</h4>
       <h2>UNIVERSITY OF MARYLAND</h2>
-      <h3>B.A., History</h3>
+      <h3>B.A. History</h3>
       <ul>
         <li>something about college here</li>
       </ul>

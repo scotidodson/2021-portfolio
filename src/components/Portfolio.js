@@ -7,6 +7,8 @@ const Portfolio = () => {
    <div className='portfolio'>
      <PortBlock orientation='left' image='./assets/sample-a/img.jpg' blurb='sample a'/>
      <PortBlock orientation='right' image='./assets/sample-b/img.jpg' blurb='sample b'/>
+     <PortBlock orientation='left' image='./assets/sample-a/img.jpg' blurb='sample a'/>
+     <PortBlock orientation='right' image='./assets/sample-b/img.jpg' blurb='sample b'/>
 
    </div>
   );
