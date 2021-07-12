@@ -1,0 +1,10 @@
+.contact {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+}
+
+.contact h3 {
+    margin: 0 auto;
+}

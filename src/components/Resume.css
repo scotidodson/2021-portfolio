@@ -14,8 +14,7 @@
     position: relative;
 }
 
-.resume_segment {
-    margin: 20px;
+.resume__segment {
     position: relative;
     padding: 10px 0 10px 40px;
 }
