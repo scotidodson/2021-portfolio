@@ -3,6 +3,8 @@ import React from "react";
 import Hero from '../components/Hero';
 import Pillars from '../components/Pillars';
 import Portfolio from './Portfolio'
+import Resume from './Resume';
+import Contact from './Contact';
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
      <Hero/>
      <Pillars/>
      <Portfolio/>
+     <Resume/>
+     <Contact/>
    </div>
   );
 };
