@@ -1,9 +1,18 @@
 import React from "react";
 import './Resume.css';
+import { RESUME_DATA } from '../data'
 
 const Resume = () => {
+  const renderResumeTimeline = () => {
+    RESUME_DATA.forEach(timeBlock => {
+      
+
+    })
+  }
+
   return (
    <div className='resume'>
+     {renderResumeTimeline()}
      {/* <div className='resume__segment'>
       <h4>MAY 2019 - PRESENT</h4>
       <h2>
