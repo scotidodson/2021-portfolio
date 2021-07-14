@@ -17,5 +17,6 @@
 }
 
 .portfolio__block .image {
-    background-color: #B0C8DB;
+    background: url('../assets/bridge-haze.jpg') bottom center no-repeat;
+    background-size: 100%;
 }

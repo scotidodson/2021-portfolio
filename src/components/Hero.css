@@ -1,11 +1,10 @@
 .hero {
     display: flex;
-    min-height: 400px;
     max-width: 500px;
     width: 100%;
     flex-direction: row;
     padding: 0;
-    margin: 0 auto;
+    margin: 120px auto 80px;
 }
 
 .hero__intro {
@@ -18,13 +17,31 @@
 
 .hero h2 {
     font-size: 2rem;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 16px 0;
+    position: relative;
+}
+
+.hero h2 span {
+    padding: 0 0 -2px;
+    margin: 0;
+    border-bottom: 3px solid var(--accent);
 }
 
 .hero h4 {
     margin: 10px 0 10px 0;
-    color: #BC8538;
+    color: var(--accent);
 }
 
-
+.hero h2:hover:after {
+    content: '(she, her)';
+    width: 200px;
+    display: inline;
+    height: 50px;
+    color: var(--secondaryLight);
+    font-size: 1.1rem;
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 8px;
+    font-weight: 800;
+}
 

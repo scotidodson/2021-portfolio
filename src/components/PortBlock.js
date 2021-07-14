@@ -3,11 +3,11 @@ import React from "react";
 export default class PortBlock extends React.Component {
     // check orientation
     renderTextLeft = () => {
-        return (<><div className="text">text here</div><div className="image">image here</div></>);
+        return (<><div className="text">text here</div><div className="image"></div></>);
     }
     
     renderTextRight = () => {
-        return (<><div className="image">image here</div><div className="text">text here</div></>);
+        return (<><div className="image"></div><div className="text">text here</div></>);
     }
     
 

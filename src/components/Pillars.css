@@ -21,7 +21,7 @@
 }
 
 .pillars__column h2 {
-    border-left: 5px solid #B0C8DB;
-    border-right: 5px solid #B0C8DB;
+    border-left: 5px solid var(--secondaryLight);
+    border-right: 5px solid var(--secondaryLight);
     padding: 0 6px 0;
 }

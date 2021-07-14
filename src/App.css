@@ -2,22 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+
+   
+   /* CSS HEX */
+:root {
+    --secondaryLight: #b2c3c8;
+    --secondaryDark: #3b5366;
+    --accent: #BC8538;
+    --primary: #38373c; 
+}
+
 body {
     font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
-    color: #38373c;
+    color: var(--primary);
 }
 
 h1, h2, h3, h4, h5, p {
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
     padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
-    color: #3b5366;
+    color: var(--secondaryDark);
 }
 
 p { 
-    color: #38373c;
+    color: var(--primary);
 }
 
 a {
@@ -62,7 +72,7 @@ p {
 }
 
 .navigation li a:hover {
-    border-left: 3px solid #BC8538;
+    border-left: 3px solid var(--accent);
 }
 
 .navigation ul {
@@ -81,7 +91,7 @@ p {
 .navigation li {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.4rem;
-    color: #3b5366;
+    color: var(--secondaryDark);
     padding: 20px 0;
     margin: 0;
 }
@@ -97,10 +107,6 @@ p {
 }
 
 .sd span.scoti, .sd span.dodson {
-    /* z-index: 20; */
-    position: fixed;
-    top: 0;
-    left: 0;
     font-weight: 700;
     letter-spacing: 3px;
 }
@@ -108,12 +114,12 @@ p {
 .sd span.scoti {
     font-family: 'Fjalla One', sans-serif;
     white-space: nowrap;
-    color: #3b5366;
+    color: var(--secondaryDark);
     padding: 0;
     margin: 0;
     position: fixed;
-    top: 10px;
-    left: 20px;
+    top: 18px;
+    left: 15px;
     font-size: 3rem;
 }
 
@@ -121,24 +127,16 @@ p {
     display: block;
     font-family: 'Fjalla One', sans-serif;
     white-space: nowrap;
-    color: #B0C8DB;
+    color: var(--secondaryLight);
     padding: 0;
     margin: 0;
     position: fixed;
-    top: 1.2rem;
-    left: 40px;
+    top: 1.8rem;
+    left: 35px;
     font-size: 3rem;
 }
 
 .pageContainer {
-    padding: 60px 60px 0 80px;
+    padding: 0 75px 0;
 }
-   
-   
-   /* CSS HEX */
-   /* --silver-sand: #b2c3c8;
-   --deep-space-sparkle: #50696c;
-   --charcoal: #3b5366;
-   --camel: #c89247;
-   --jet: #38373c; 
-   --bronze: #BC8538*/
+

@@ -1,5 +1,5 @@
 .contact {
-    margin: 50px auto 80px;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     max-width: 500px;
@@ -7,5 +7,9 @@
 
 .contact__path {
     margin: 0 auto;
-    color: #BC8538;
+    color: var(--secondaryDark);
+    font-size: 1.3rem;
+    padding: 0 6px;
+    border-left: 5px solid var(--secondaryLight);
+    border-right: 5px solid var(--secondaryLight);
 }

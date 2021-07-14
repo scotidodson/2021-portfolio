@@ -8,7 +8,7 @@ const Portfolio = () => {
      <PortBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
      <PortBlock textOnLeft={false} image='./assets/sample-b/img.jpg' blurb='sample b'/>
      <PortBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
-     <PortBlock textOnLeft={false} image='./assets/sample-b/img.jpg' blurb='sample b'/>
+     <PortBlock textOnLeft={false} image='./assets/' blurb='sample b'/>
 
    </div>
   );
