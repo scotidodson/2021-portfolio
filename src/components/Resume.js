@@ -4,7 +4,7 @@ import './Resume.css';
 const Resume = () => {
   return (
    <div className='resume'>
-     <div className='resume__segment'>
+     {/* <div className='resume__segment'>
       <h4>MAY 2019 - PRESENT</h4>
       <h2>
         <a href="https://www.taboola.com/" target="_blank" rel="noreferrer">TABOOLA</a></h2>
@@ -51,7 +51,7 @@ const Resume = () => {
       <ul>
         <li>something about college here</li>
       </ul>
-     </div>
+     </div> */}
 
    </div>
   );
