@@ -1,22 +1,28 @@
-.portfolio {
-    width: 100%;
-    min-height: 300px;
+.portfolio__block {
+    min-height: 400px;
 }
 
-.portfolio__block {
+.portfolio__block--textRight {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
-.portfolio__block .image, .portfolio__block .text {
+.portfolio__block--textLeft {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.portfolio__block__text {
     display: block;
-    min-height: 300px;
-    padding: 10%;
     width: 50%;
 }
 
-.portfolio__block .image {
+.portfolio__block__textContainer {
+    padding: 40px 30px;
+}
+
+.portfolio__block__image {
     background: url('../assets/bridge-haze.jpg') bottom center no-repeat;
     background-size: 100%;
+    width: 50%;
 }

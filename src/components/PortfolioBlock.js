@@ -1,20 +1,21 @@
 import React from "react";
 
 export default class PortfolioBlock extends React.Component {
-    // check orientation
-    renderTextLeft = () => {
-        return (<><div className="text">text here</div><div className="image"></div></>);
-    }
-    
-    renderTextRight = () => {
-        return (<><div className="image"></div><div className="text">text here</div></>);
-    }
-    
 
     render() {
       return(
-          <div className='portfolio__block'>
-              {this.props.textOnLeft ? this.renderTextLeft():this.renderTextRight()}
+          <div className={this.props.index % 2 === 0 ? 'portfolio__block portfolio__block--textRight':'portfolio__block portfolio__block--textLeft'}>
+              <div className='portfolio__block__text'>
+                  <div className='portfolio__block__textContainer'>
+                    <h2>{this.props.title}</h2>
+                    <h4>{this.props.tech}</h4>
+                    <p>{this.props.blurb}</p>
+                    <a href={'/'+this.props.title.toLowerCase().replaceAll(' ','-')}>See More</a>
+                  </div>
+              </div>
+              <div className='portfolio__block__image'>
+
+              </div>
               
           </div>
       );

@@ -56,3 +56,17 @@ export const RESUME_DATA = [{
                 "responsibilities": ["something about college here"]
             }]
 }];
+
+export const PORTFOLIO_DATA = [{
+                "title":"Project A",
+                "tech": ["Javascript","Rails API"],
+                "blurb": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci aliquid repudiandae a veniam nesciunt minus? Nihil id magni assumenda earum animi eveniet, suscipit, et, atque doloribus consequatur aut voluptatibus.",
+                "thumbnail": "image",
+                "detailed": {}
+        },{
+                "title":"Project B",
+                "tech": ["Javascript","Rails API"],
+                "blurb": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci aliquid repudiandae a veniam nesciunt minus? Nihil id magni assumenda earum animi eveniet, suscipit, et, atque doloribus consequatur aut voluptatibus.",
+                "thumbnail": "image",
+                "detailed": {}
+}]

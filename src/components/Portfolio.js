@@ -1,15 +1,12 @@
 import React from "react";
 import './Portfolio.css';
 import PortfolioBlock from './PortfolioBlock';
+import { PORTFOLIO_DATA } from '../data'
 
 const Portfolio = () => {
   return (
    <div className='portfolio'>
-     <PortfolioBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
-     <PortfolioBlock textOnLeft={false} image='./assets/sample-b/img.jpg' blurb='sample b'/>
-     <PortfolioBlock textOnLeft={true} image='./assets/sample-a/img.jpg' blurb='sample a'/>
-     <PortfolioBlock textOnLeft={false} image='./assets/' blurb='sample b'/>
-
+     {PORTFOLIO_DATA.map((x,index)=><PortfolioBlock key={index} index={index} title={x.title} tech={x.tech} blurb={x.blurb} thumbnail={x.thumbnail} />)}
    </div>
   );
 };

@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'
 import PageContainer from './containers/PageContainer';
+import FourOhFour from './containers/FourOhFour';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         </ul>
       </nav>
         <Switch>
-          <Route path='/'><PageContainer/></Route>
+          <Route exact path='/'><PageContainer/></Route>
+          <Route path='/'><FourOhFour/></Route>
         </Switch>
     </Router>
   );
