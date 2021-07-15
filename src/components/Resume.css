@@ -16,6 +16,7 @@
 .resume h2 {
     letter-spacing: 1px;
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 .resume h3 {
@@ -29,6 +30,7 @@
     font-weight: 600;
     font-size: .8rem;
     margin: 0 0 4px 0;
+    text-transform: uppercase;
 }
 
 .resume ul {

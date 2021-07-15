@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class PortBlock extends React.Component {
+export default class PortfolioBlock extends React.Component {
     // check orientation
     renderTextLeft = () => {
         return (<><div className="text">text here</div><div className="image"></div></>);
