@@ -62,11 +62,11 @@ export const PORTFOLIO_DATA = [{
                 "tech": ["Javascript","Rails API"],
                 "blurb": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci aliquid repudiandae a veniam nesciunt minus? Nihil id magni assumenda earum animi eveniet, suscipit, et, atque doloribus consequatur aut voluptatibus.",
                 "thumbnail": "image",
-                "detailed": {}
+                "details": {}
         },{
                 "title":"Project B",
                 "tech": ["Javascript","Rails API"],
                 "blurb": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci aliquid repudiandae a veniam nesciunt minus? Nihil id magni assumenda earum animi eveniet, suscipit, et, atque doloribus consequatur aut voluptatibus.",
                 "thumbnail": "image",
-                "detailed": {}
+                "details": {}
 }]

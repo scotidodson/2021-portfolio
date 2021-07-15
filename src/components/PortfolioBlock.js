@@ -10,7 +10,7 @@ export default class PortfolioBlock extends React.Component {
                     <h2>{this.props.title}</h2>
                     <h4>{this.props.tech}</h4>
                     <p>{this.props.blurb}</p>
-                    <a href={'/'+this.props.title.toLowerCase().replaceAll(' ','-')}>See More</a>
+                    <a href={'/work/'+this.props.title.toLowerCase().replaceAll(' ','-')}>See More</a>
                   </div>
               </div>
               <div className='portfolio__block__image'>
