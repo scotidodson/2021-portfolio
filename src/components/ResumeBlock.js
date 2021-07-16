@@ -5,12 +5,17 @@ import './Resume.css';
 const ResumeBlock = (props) => {
   return (
     <div className='resume__segment'>
-        <h4>{props.timeframe}</h4>
-        <h2><a href={props.website} target="_blank" rel="noreferrer">{props.company}</a></h2>
-        <h3>{props.title}</h3>
-        <ul>
-            {props.responsibilities.map(x=> <li>{x}</li>)}
-        </ul>
+        <h4>{props.companyData.timeframe}</h4>
+        <h2><a href={props.companyData.website} target="_blank" rel="noreferrer">{props.companyData.company}</a></h2>
+        {props.roleData.map((x,index)=>{
+          return (<>
+          <h3 key={index}>{x.title} {x.duration}</h3>
+          <ul>{x.responsibilities.map((x,index)=> <li key={index}> {x}</li>)}
+          </ul>
+          </>
+          )
+        })}
+        
    </div>
   );
 };

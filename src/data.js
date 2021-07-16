@@ -20,8 +20,7 @@ export const RESUME_DATA = [{
         "website": "https://www.mna.co/",
         "roles": [{
                 "title": "Developer Intern",
-                "start": "null",
-                "end": "null",
+                "duration": null,
                 "responsibilities": ["Coded pixel perfect products with CSS, HTML, Javascript",
                     "Consulted with design and production teams on UX/UI best practices and capabilities"]
             }]
@@ -31,8 +30,7 @@ export const RESUME_DATA = [{
         "website": "https://www.flatironschool.com/",
         "roles": [{
                 "title":"Student, Web Development Immersive",
-                "start": "null",
-                "end": "null",
+                "duration": null,
                 "responsibilities": ["describe here"]
             }]
     },{
@@ -41,8 +39,7 @@ export const RESUME_DATA = [{
         "website": "null",
         "roles": [{
                 "title": "Various Roles",
-                "start": "null",
-                "end": "null",
+                "duration": null,
                 "responsibilities": ["Before I pivoted into tech, I held multiple roles in the legal industry. I was primarily focused on project coordination, operational efficiency improvements, and event production."]
             }]
     },{
@@ -51,10 +48,9 @@ export const RESUME_DATA = [{
         "website": "null",
         "roles": [{
                 "title": "B.A. in History",
-                "start": "null",
-                "end": "null",
+                "duration": null,
                 "responsibilities": ["something about college here"]
-            }]
+        }]
 }];
 
 export const PORTFOLIO_DATA = [{
