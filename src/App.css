@@ -6,12 +6,14 @@
    
    /* CSS HEX */
 :root {
+    --primary: #252525; 
+    --secondaryDark: #003658;
     --secondaryLight: #b2c3c8;
-    --secondaryDark: #3b5366;
     --accent: #BC8538;
+    /* --secondaryDark: #3b5366; */
     /* --accent: #bb4d00; */
     /* --accent: #bc3908; */
-    --primary: #38373c; 
+    /* --primary: #38373c;  */
 }
 
 body {
@@ -108,37 +110,20 @@ p {
     top: 0;    
 }
 
-.sd span.scoti, .sd span.dodson {
-    font-weight: 700;
-    letter-spacing: 3px;
+
+.logo {
+    background: url('./assets/striped-penant-logo.PNG') bottom center no-repeat;
+    background: url('./assets/triple-squared.png') bottom center no-repeat;
+    /* background: url('./assets/stacked-penant-logo.PNG') bottom center no-repeat; */
+    background-size: 100%;
+    left: 0;
+    width: 100px;
+    height: 120px;
+    margin: 20px 4px;
 }
 
-.sd span.scoti {
-    font-family: 'Fjalla One', sans-serif;
-    white-space: nowrap;
-    color: var(--secondaryDark);
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    top: 18px;
-    left: 15px;
-    font-size: 3rem;
-}
-
-.sd span.dodson {
-    display: block;
-    font-family: 'Fjalla One', sans-serif;
-    white-space: nowrap;
-    color: var(--secondaryLight);
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    top: 1.8rem;
-    left: 35px;
-    font-size: 3rem;
-}
 
 .pageContainer {
-    padding: 80px 75px 0;
+    padding: 80px 75px 0 110px;
 }
 
