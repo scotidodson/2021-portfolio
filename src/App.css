@@ -111,15 +111,11 @@ p {
 }
 
 
-.logo {
-    background: url('./assets/striped-penant-logo.PNG') bottom center no-repeat;
-    background: url('./assets/triple-squared.png') bottom center no-repeat;
-    /* background: url('./assets/stacked-penant-logo.PNG') bottom center no-repeat; */
-    background-size: 100%;
+.navigation__logo {
     left: 0;
     width: 100px;
     height: 120px;
-    margin: 20px 4px;
+    margin: 30px 4px;
 }
 
 
