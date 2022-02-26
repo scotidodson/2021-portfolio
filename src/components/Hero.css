@@ -1,10 +1,9 @@
 .hero {
     display: flex;
-    max-width: 500px;
     width: 100%;
     flex-direction: row;
     padding: 0;
-    margin: 120px auto 80px;
+    margin: 8rem auto 80px;
 }
 
 .hero__intro {
@@ -13,11 +12,12 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 0;
+    max-width: 800px;
 }
 
 .hero h2 {
     font-size: 2rem;
-    margin: 10px 0 16px 0;
+    margin: 0 0 16px 0;
     position: relative;
 }
 
