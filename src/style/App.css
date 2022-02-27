@@ -47,7 +47,7 @@ h1 {
     font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
     letter-spacing: .5px;
     font-size: 2.5rem;
-    margin: 0 0 24px 0;
+    margin: 0 0 34px 0;
 }
 
 h2 {
@@ -142,8 +142,14 @@ p {
     font-size: 3rem;
 }
 
+#top {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .pageContainer {
     padding: 0 2%;
-    margin-left: 5rem;
+    margin-left: 100px;
 }
 

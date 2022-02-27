@@ -12,7 +12,12 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin: 10px 0;
+    margin: 0 12px 0 0;
+    
+}
+
+.pillars__column:last-of-type {
+    margin: 0;
 }
 
 .pillars__column h2 {
@@ -21,5 +26,6 @@
 }
 
 .pillars p {
-    margin: 2px 0;
+    margin: 6px 0;
+    line-height: 1rem;
 }
