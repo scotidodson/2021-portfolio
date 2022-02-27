@@ -22,7 +22,7 @@ const Pillars = () => {
           <p>SEO + CWV Best Practices</p>
       </div>
       <div className='pillars__column'>
-          <h2>PROJECTS + MORE</h2>
+          <h2>ETC</h2>
           <p>Presentations + Demos</p>
           <p>Scrum Master Certified</p>
           <p>Agile Project Management</p>
