@@ -26,7 +26,6 @@ const Pillars = () => {
           <p>Presentations + Demos</p>
           <p>Scrum Master Certified</p>
           <p>Agile Project Management</p>
-          <p>SEO + CWV Best Practices</p>
           <p>Winning by Design Certified</p>
       </div>
    </div>
