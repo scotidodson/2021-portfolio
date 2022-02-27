@@ -60,3 +60,21 @@
     top: 0;
     left: -40px;
 }
+
+@media only screen and (max-width: 480px) {
+    .resume__segment {
+        position: relative;
+        padding: 10px 0 10px 15px;
+    }
+
+    .resume__segment h2:before {
+        content: "";
+        width: 35px;
+        height: 5px;
+        display: inline-block;
+        background: var(--secondaryLight);
+        position: absolute;
+        top: 0;
+        left: -15px;
+    }
+}

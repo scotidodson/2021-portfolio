@@ -14,7 +14,7 @@ import FourOhFour from './containers/FourOhFour';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='nav'>
         <nav className='navigation'>
           <div className='sd'>
               <span className='scoti'><Link to='/'>S</Link></span>

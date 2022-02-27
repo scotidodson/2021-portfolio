@@ -48,3 +48,9 @@
     background-color: var(--accent);
     display: inline-block;
 }
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        margin: 60px 0 80px;
+    }
+}

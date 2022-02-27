@@ -153,3 +153,54 @@ p {
     margin-left: 100px;
 }
 
+
+@media only screen and (max-width: 480px) {
+    div.nav {
+        position: fixed;
+        overflow: hidden;
+        bottom: 0;
+        width: 100%;
+        z-index: 99;
+    }
+
+    .navigation {
+        position: relative;
+        overflow: hidden;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background: var(--secondaryLight);
+        z-index: 99;
+    }
+    
+    .navigation li a:hover {
+        border: none;
+    }
+    
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: auto;
+        margin: 0;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        color: #fff;
+
+    }
+    
+    .navigation li {
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+        
+    .sd {
+        display: none;
+    }
+
+    .pageContainer {
+        padding: 0 25px 0 40px;
+        margin: 0;
+    }
+
+}
