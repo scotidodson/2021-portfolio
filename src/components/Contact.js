@@ -1,10 +1,10 @@
 import React from "react";
-import './Contact.css';
+import '../style/Contact.css';
 
 const Contact = () => {
   return (
    <div className='contact'>
-     <h4 className="contact__path">
+     <h4  id="contact" className="contact__path">
        <a href="mailto:scotidodson@gmail.com">
        EMAIL
        </a>

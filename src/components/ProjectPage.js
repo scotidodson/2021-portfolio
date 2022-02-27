@@ -1,5 +1,5 @@
 import React from "react";
-import './ProjectPage.css';
+import '../style/ProjectPage.css';
 import { PORTFOLIO_DATA } from '../data'
 
 const ProjectPage = () => {

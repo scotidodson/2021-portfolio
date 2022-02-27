@@ -1,4 +1,4 @@
-import './App.css';
+import './style/App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,17 +19,14 @@ function App() {
             <span className='scoti'><Link to='/'>S</Link></span>
         </div>
         <ul>
-            {/* <li>
-              <Link to='/'>HOME</Link>
-            </li> */}
             <li><HashLink smooth to='#'>ABOUT</HashLink></li>
-            <li><HashLink smooth to='#portfolio'>WORK</HashLink></li>
+            {/* <li><HashLink smooth to='#portfolio'>WORK</HashLink></li> */}
             <li><HashLink smooth to='#resume'>RESUME</HashLink></li>
             <li><HashLink smooth to='#contact'>CONTACT</HashLink></li>
         </ul>
       </nav>
         <Switch>
-          <Route path='/work/:id'><ProjectPage /></Route>
+          {/* <Route path='/work/:id'><ProjectPage /></Route> */}
           <Route exact path='/'><PageContainer/></Route>
           <Route path='/'><FourOhFour/></Route>
         </Switch>

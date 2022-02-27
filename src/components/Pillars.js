@@ -1,5 +1,5 @@
 import React from "react";
-import './Pillars.css';
+import '../style/Pillars.css';
 
 
 const Pillars = () => {

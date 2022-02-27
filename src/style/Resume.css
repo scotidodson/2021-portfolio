@@ -18,16 +18,11 @@
     font-size: 1.2rem;
     line-height: 1.2rem;
     text-transform: uppercase;
-}
-
-.resume h2.subheader {
-    letter-spacing: 1px;
-    font-size: 2rem;
-    line-height: 2rem;
+    margin-bottom: 4px;
 }
 
 .resume h3 {
-    font-weight: 200;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -46,8 +41,8 @@
 
 .resume li {
     font-size: .9rem;
-    margin: 20px 0;
-    line-height: .9rem;
+    margin: 0 0 20px 0;
+    line-height: 1rem;
 }
 
 .resume__segment {

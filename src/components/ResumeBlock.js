@@ -1,6 +1,4 @@
 import React from "react";
-import './Resume.css';
-
 
 const ResumeBlock = (props) => {
   return (

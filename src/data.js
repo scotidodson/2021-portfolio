@@ -43,17 +43,17 @@ export const RESUME_DATA = [{
 }, {
         "timeframe": "SEPTEMBER 2018 - JANUARY 2019",
         "company": "Flatiron School",
-        "website": "https://www.flatironschool.com/",
+        "website": "https://flatironschool.com/courses/coding-bootcamp/",
         "roles": [{
                 "title": "Student, Web Development Immersive",
                 "start": "null",
                 "end": "null",
-                "responsibilities": ["describe here"]
+                "responsibilities": ["Completed a 15-week immersive coding bootcamp focused on fundamentals, Ruby, Rails, Javascript, React, and Redux"]
         }]
 }, {
         "timeframe": "JANUARY 2013 - AUGUST 2018",
         "company": "The Pre-Tech Era",
-        "website": "null",
+        "website": "https://www.zenbusiness.com/blog/5-reasons-hiring-coding-bootcamp-grads/",
         "roles": [{
                 "title": "Various Roles",
                 "start": "null",
@@ -63,12 +63,12 @@ export const RESUME_DATA = [{
 }, {
         "timeframe": "SEPTEMBER 2009 - MAY 2013",
         "company": "University of Maryland",
-        "website": "null",
+        "website": "https://history.umd.edu/",
         "roles": [{
                 "title": "B.A. in History",
                 "start": "null",
                 "end": "null",
-                "responsibilities": ["something about college here"]
+                "responsibilities": ["Studied History with a focus on the emergence of modern America, women's issues, and social movements","Honors Program, Sigma Kappa Sorority (VP Alumnae Relations), Student Entertainment Events Programming Board"]
         }]
 }];
 
