@@ -4,7 +4,7 @@ export default class PortfolioBlock extends React.Component {
 
     render() {
       return(
-          <div className={this.props.index % 2 === 0 ? 'portfolio__block portfolio__block--textRight':'portfolio__block portfolio__block--textLeft'}>
+          <div className={this.props.index % 2 === 0 ? 'portfolio__block portfolio__block--textLeft':'portfolio__block portfolio__block--textRight'}>
               <div className='portfolio__block__text'>
                   <div className='portfolio__block__textContainer'>
                     <h2>{this.props.title}</h2>

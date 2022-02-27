@@ -16,7 +16,6 @@ function App() {
     <Router>
       <nav className='navigation'>
         <div className='sd'>
-            <span className='dodson'><Link to='/'>D</Link></span>
             <span className='scoti'><Link to='/'>S</Link></span>
         </div>
         <ul>

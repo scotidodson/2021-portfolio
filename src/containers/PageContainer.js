@@ -11,8 +11,8 @@ const PageContainer = () => {
    <div className="pageContainer">
      <Hero/>
      <Pillars/>
-     <a href="#portfolio" id="portfolio" hidden>portfolio</a>
-     <Portfolio/>
+     {/* <a href="#portfolio" id="portfolio" hidden>portfolio</a> */}
+     {/* <Portfolio/> */}
      <a href="#resume" id="resume" hidden>resume</a>
      <Resume/>
      <a href="#contact" id="contact" hidden>contact</a>

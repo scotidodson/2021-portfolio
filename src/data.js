@@ -19,7 +19,7 @@ export const RESUME_DATA = [{
                 "title": "Solutions Engineer",
                 "start": "",
                 "end": "",
-                "responsibilities": ["Scoped, developed, and launched custom Javascript & CSS integrations for premium publisher clients such as NBC", 
+                "responsibilities": ["Scoped, developed, and launched custom Javascript & CSS integrations for premium publisher clients such as NBC",
                         "Consulted with clients on best fit solutions and complex debugging for web and mobile app products and facilitated A/B testing to optimize product integrations",
                         "Developed internal tools (full stack React applications) to optimize workflows and drive efficiency",
                         "Collaborated with Product and R&D on data driven product improvements and client driven feature requests",
@@ -52,7 +52,7 @@ export const RESUME_DATA = [{
         }]
 }, {
         "timeframe": "JANUARY 2013 - AUGUST 2018",
-        "company": "The Pre-Tech Era of My Career",
+        "company": "The Pre-Tech Era",
         "website": "null",
         "roles": [{
                 "title": "Various Roles",
@@ -84,4 +84,5 @@ export const PORTFOLIO_DATA = [{
         "blurb": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci aliquid repudiandae a veniam nesciunt minus? Nihil id magni assumenda earum animi eveniet, suscipit, et, atque doloribus consequatur aut voluptatibus.",
         "thumbnail": "image",
         "details": {}
-}]
+}];
+

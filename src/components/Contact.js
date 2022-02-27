@@ -10,8 +10,8 @@ const Contact = () => {
        </a>
     </h4>
     <h4 className="contact__path">
-      <a href="https://drive.google.com/file/d/1Eu2NAVUVkconhlPDD9e8BmPs04GPh2ix/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-        RESUME
+      <a href="https://drive.google.com/file/d/1oprXejMTA9y9JdbEDXb6lpfwCKQ9ozbA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        PDF RESUME
       </a>
     </h4>
      <h4 className="contact__path">

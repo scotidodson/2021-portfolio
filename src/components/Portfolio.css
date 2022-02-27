@@ -6,12 +6,12 @@
     margin-bottom: 100px;
 }
 
-.portfolio__block--textRight {
+.portfolio__block--textLeft {
     display: flex;
     flex-direction: row;
 }
 
-.portfolio__block--textLeft {
+.portfolio__block--textRight {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -21,8 +21,12 @@
     width: 50%;
 }
 
-.portfolio__block__textContainer {
-    padding: 40px 30px;
+.portfolio__block--textRight .portfolio__block__textContainer {
+    padding: 40px 0 40px 30px;
+}
+
+.portfolio__block--textLeft .portfolio__block__textContainer {
+    padding: 40px 30px 40px 0;
 }
 
 .portfolio__block__image {

@@ -30,6 +30,8 @@ h1, h2, h3, h4, h5 {
 
 p { 
     color: var(--primary);
+    font-size: 1rem;
+    margin-bottom: 16px;
 }
 
 a {
@@ -41,10 +43,17 @@ a:hover {
     cursor: pointer;
 }
 
+h1 {
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    font-size: 2.5rem;
+    margin: 0 0 24px 0;
+}
+
 h2 {
     font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
     letter-spacing: .5px;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 h3 {
@@ -73,7 +82,7 @@ p {
 }
 
 .navigation li a:hover {
-    border-left: 3px solid var(--accent);
+    border-left: 5px solid var(--accent);
 }
 
 .navigation ul {
@@ -107,21 +116,17 @@ p {
     top: 0;    
 }
 
-.sd span.scoti, .sd span.dodson {
-    font-weight: 700;
-    letter-spacing: 3px;
-}
-
 .sd span.scoti {
     font-family: 'Fjalla One', sans-serif;
     white-space: nowrap;
-    color: var(--secondaryDark);
+    color: var(--secondaryLight);
     padding: 0;
     margin: 0;
     position: fixed;
     top: 18px;
     left: 15px;
     font-size: 3rem;
+    font-weight: 700;
 }
 
 .sd span.dodson {
@@ -138,7 +143,7 @@ p {
 }
 
 .pageContainer {
-    padding: 0 5%;
-    margin-left: 4rem;
+    padding: 0 2%;
+    margin-left: 5rem;
 }
 

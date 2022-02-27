@@ -1,7 +1,7 @@
 .resume {
     margin: 0px 0;
-    padding: 30px 0;
-    max-width: 600px;
+    padding: 60px 0;
+    max-width: 800px;
     border-left: 5px solid var(--secondaryLight);
     position: relative;
 }
@@ -16,7 +16,14 @@
 .resume h2 {
     letter-spacing: 1px;
     font-size: 1.2rem;
+    line-height: 1.2rem;
     text-transform: uppercase;
+}
+
+.resume h2.subheader {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .resume h3 {
@@ -39,7 +46,7 @@
 
 .resume li {
     font-size: .9rem;
-    margin: 12px 0;
+    margin: 20px 0;
     line-height: .9rem;
 }
 
@@ -55,6 +62,6 @@
     display: inline-block;
     background: var(--secondaryLight);
     position: absolute;
-    top: 2px;
+    top: 0;
     left: -40px;
 }
