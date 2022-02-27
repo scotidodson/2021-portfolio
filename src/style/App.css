@@ -161,9 +161,10 @@ p {
         bottom: 0;
         width: 100%;
         z-index: 99;
+        display: none;
     }
 
-    .navigation {
+    /* .navigation {
         position: relative;
         overflow: hidden;
         bottom: 0;
@@ -196,7 +197,7 @@ p {
         
     .sd {
         display: none;
-    }
+    } */
 
     .pageContainer {
         padding: 0 25px 0 40px;

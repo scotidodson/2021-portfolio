@@ -6,7 +6,7 @@ const Contact = () => {
    <div className='contact'>
      <h4  id="contact" className="contact__path">
        <a href="mailto:scotidodson@gmail.com">
-       EMAIL
+       EMAIL ME
        </a>
     </h4>
     <h4 className="contact__path">

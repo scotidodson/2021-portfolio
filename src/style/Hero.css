@@ -53,4 +53,7 @@
     .hero {
         margin: 60px 0 80px;
     }
+    .hero__intro--emphasis {
+        font-size: 1rem;
+    }
 }

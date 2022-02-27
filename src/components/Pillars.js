@@ -16,7 +16,7 @@ const Pillars = () => {
        <div className='pillars__column'>
           <h2>UX / UI</h2>
           <p>Wireframing &#9702; Prototyping</p>
-          <p>UI Design &#9702; User Research</p>
+          <p>UI Design &#9702; UX Design</p>
           <p>Figma &#9702; Adobe XD </p>
           <p>Accessibility Standards</p>
           <p>SEO + CWV Best Practices</p>
