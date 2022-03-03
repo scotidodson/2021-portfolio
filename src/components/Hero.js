@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/Hero.css';
+import "../style/Hero.css";
 
 const Hero = () => {
   return (
@@ -10,11 +10,11 @@ const Hero = () => {
         <p>I have worked with companies of all sizes to implement + optimize their API integrations. I love the frontend and my favorite projects involve elements of UX/UI consulting. My primary experience is in vanilla <strong>Javascript</strong>&nbsp;(E5&nbsp;+&nbsp;E6), <strong>React</strong>,and <strong>CSS</strong>.</p>
         <p>Away from the computer, I’m into comedy, books, and board games.</p>
         <p className="hero__intro--emphasis">Currently: Solutions&nbsp;Engineering&nbsp;@&nbsp;Plaid</p>
-        <a href="mailto:scotidodson@gmail.com">
-          <h4>
-            GET IN TOUCH &#8680;
-          </h4>
-        </a>
+        <p className="hero__intro--cta">
+          <a href="mailto:scotidodson@gmail.com">
+              GET IN TOUCH &#8680;
+          </a>
+        </p>
       </div>
     </div>
   );

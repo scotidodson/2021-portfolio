@@ -3,7 +3,7 @@
     width: 100%;
     flex-direction: row;
     padding: 0;
-    margin: 8rem auto 80px;
+    margin: 5rem auto 80px;
 }
 
 .hero__intro {
@@ -40,13 +40,15 @@
     font-weight: 800;
 }
 
-.hero h4 {
+.hero__intro--cta a {
     margin: 20px 0;
     color: #fff;
     font-size: 1.3rem;
     padding: 6px 10px;
     background-color: var(--accent);
     display: inline-block;
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
 }
 
 @media only screen and (max-width: 480px) {

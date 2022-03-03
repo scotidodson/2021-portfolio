@@ -1,11 +1,11 @@
 import React from "react";
-import '../style/Pillars.css';
+import "../style/Pillars.css";
 
 
 const Pillars = () => {
   return (
-   <div className='pillars'>
-       <div className='pillars__column'>
+   <div className="pillars">
+       <div className="pillars__column">
           <h2>CODE</h2>
           <p>Javascript (E5 + E6)</p>
           <p>CSS &#9702; SASS &#9702; React</p>
@@ -13,7 +13,7 @@ const Pillars = () => {
           <p>Rest APIs &#9702; SQL &#9702; KQL</p>
           <p>Complex Debugging</p>
       </div>
-       <div className='pillars__column'>
+       <div className="pillars__column">
           <h2>UX / UI</h2>
           <p>Wireframing &#9702; Prototyping</p>
           <p>UI Design &#9702; UX Design</p>
@@ -21,11 +21,11 @@ const Pillars = () => {
           <p>Accessibility Standards</p>
           <p>SEO + CWV Best Practices</p>
       </div>
-      <div className='pillars__column'>
+      <div className="pillars__column">
           <h2>ETC</h2>
           <p>Presentations + Demos</p>
+          <p>Team trainings</p>
           <p>Scrum Master Certified</p>
-          <p>Agile Project Management</p>
           <p>Winning by Design Certified</p>
       </div>
    </div>

@@ -30,7 +30,7 @@
 }
 
 .portfolio__block__image {
-    background: url('../assets/bridge-haze.jpg') bottom center no-repeat;
+    /* background: url('../assets/bridge-haze.jpg') bottom center no-repeat; */
     background-size: 100%;
     width: 50%;
 }

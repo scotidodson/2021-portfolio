@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-
-   
    /* CSS HEX */
 :root {
-    --secondaryLight: #b2c3c8;
-    --secondaryDark: #3b5366;
-    --accent: #BC8538;
+    /* --secondaryLight: #b2c3c8; */
+    --secondaryLight: #BDBDBD;
+    /* --secondaryDark: #3b5366; */
+    --secondaryDark: #003566;
+    /* --accent: #BC8538; */
     /* --accent: #bb4d00; */
-    /* --accent: #bc3908; */
+    /* --accent: #0096c7; */
+    --accent: #9c3636;
     --primary: #38373c; 
 }
 
@@ -74,23 +75,23 @@ p {
 
 
 
-.navigation {
+.nav {
     position: fixed;
     top: 0;
     left: 0;
     padding: 0 10px;
 }
 
-.navigation li a:hover {
+.nav li a:hover {
     border-left: 5px solid var(--accent);
 }
 
-.navigation ul {
+.nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 0 2%;
-    margin: 8rem 0 auto;
+    margin: 5rem 0 auto;
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: relative;
@@ -98,7 +99,7 @@ p {
     right: 0px;
 }
 
-.navigation li {
+.nav li {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.4rem;
     color: var(--secondaryDark);
@@ -106,11 +107,11 @@ p {
     margin: 0;
 }
 
-.navigation li:hover {
+.nav li:hover {
     cursor: pointer;
 }
 
-.navigation div {
+.nav div {
     position: absolute;
     right: 0;
     top: 0;    
